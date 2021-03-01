@@ -2,6 +2,88 @@
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    background-color: #b2bec3;
+    position: relative;
+}
+
+div {
+    width: 550px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 150px;
+    padding: 30px;
+    background-position: center;
+    position: absolute;
+    left: 408px;
+    position: relative;
+    box-shadow: 10px 5px 5px rgba(0,0,0,.4);
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: left;
+    color: #d63031;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    text-align: justify;
+    font-size: 18px;
+    margin: 30px 0;
+}
+
+.eliska-foto {
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    position: absolute;
+    top: -75px;
+    left: 85%;
+}
+
+button a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
+.twitter,
+.fb {
+    display: block;
+    width: 490px;
+    border-radius: 5px;
+    font-size: 18px; 
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    padding: 10px;
+}
+
+.twitter {
+    background-color: #1da1f2;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.twitter a:hover,
+.twitter a:focus {
+    background-color: #0b7bc1;
+}
+
+.fb {
+    background-color: #3b5998;
+}
+
+.fb a:hover,
+.fb a:focus {
+    background-color: #2b406e;
+}
 /*
 BARVY:
 šedá na pozadí stránky:		 #b2bec3

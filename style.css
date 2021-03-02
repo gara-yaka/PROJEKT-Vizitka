@@ -59,7 +59,6 @@ button a {
     font-size: 18px; 
     font-weight: bold;
     text-transform: uppercase;
-    border: none;
     padding: 10px;
 }
 
@@ -68,6 +67,7 @@ button a {
     margin-bottom: 5px;
     width: 490px;
     border-radius: 5px;
+    border: none;
 }
 
 .twitter a:hover,
@@ -79,6 +79,7 @@ button a {
     background-color: #3b5998;
     width: 490px;
     border-radius: 5px;
+    border: none;
 }
 
 .fb a:hover,

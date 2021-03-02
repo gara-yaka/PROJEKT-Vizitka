@@ -53,11 +53,9 @@ button a {
     color: white;
 }
 
-.twitter,
-.fb {
+.twitter a,
+.fb a {
     display: block;
-    width: 490px;
-    border-radius: 5px;
     font-size: 18px; 
     font-weight: bold;
     text-transform: uppercase;
@@ -67,8 +65,9 @@ button a {
 
 .twitter {
     background-color: #1da1f2;
-    margin-top: 30px;
     margin-bottom: 5px;
+    width: 490px;
+    border-radius: 5px;
 }
 
 .twitter a:hover,
@@ -78,6 +77,8 @@ button a {
 
 .fb {
     background-color: #3b5998;
+    width: 490px;
+    border-radius: 5px;
 }
 
 .fb a:hover,

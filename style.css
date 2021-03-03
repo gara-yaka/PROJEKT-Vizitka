@@ -6,6 +6,7 @@ body {
     font-family: 'Nunito', sans-serif;
     margin: 0;
     background-color: #b2bec3;
+    overflow: auto;
 }
 
 div {
@@ -19,7 +20,6 @@ div {
     left: 408px;
     position: relative;
     box-shadow: 10px 5px 5px rgba(0,0,0,.4);
-    overflow: auto;
 }
 
 h1 {

@@ -9,6 +9,7 @@ body {
 
 div {
     margin: 0 auto;
+    margin-top: 150px;
     width: 550px;
     background-color: white;
     border-radius: 10px;

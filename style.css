@@ -4,20 +4,17 @@ html { box-sizing: border-box; }
 
 body {
     font-family: 'Nunito', sans-serif;
-    margin: 0 auto;
-    max-width: 50em;
     background-color: #b2bec3;
 }
 
 div {
+    margin: 0 auto;
     width: 550px;
     background-color: white;
     border-radius: 10px;
     text-align: center;
-    margin-top: 150px;
     padding: 30px;
     background-position: center;
-    left: 408px;
     position: relative;
     box-shadow: 10px 5px 5px rgba(0,0,0,.4);
 }

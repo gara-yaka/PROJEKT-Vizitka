@@ -6,7 +6,6 @@ body {
     font-family: 'Nunito', sans-serif;
     margin: 0;
     background-color: #b2bec3;
-    position: relative;
 }
 
 div {
@@ -17,7 +16,6 @@ div {
     margin-top: 150px;
     padding: 30px;
     background-position: center;
-    position: absolute;
     left: 408px;
     position: relative;
     box-shadow: 10px 5px 5px rgba(0,0,0,.4);
@@ -68,11 +66,13 @@ button a {
     width: 490px;
     border-radius: 5px;
     border: none;
+    padding: 0;
 }
 
 .twitter a:hover,
 .twitter a:focus {
     background-color: #0b7bc1;
+    border-radius: 5px;
 }
 
 .fb {
@@ -80,11 +80,13 @@ button a {
     width: 490px;
     border-radius: 5px;
     border: none;
+    padding: 0;
 }
 
 .fb a:hover,
 .fb a:focus {
     background-color: #2b406e;
+    border-radius: 5px;
 }
 /*
 BARVY:
